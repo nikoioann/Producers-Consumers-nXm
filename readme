@@ -1,0 +1,10 @@
+/**************************************************************
+ *							      *
+ * author: Nikolas Ioannou                                    *
+ *							      *
+ **************************************************************/
+Assignment 2 : Operating Systems (CS-345) UoC
+
+A mutex for mutual exclussion for the buffer.
+A semaphore indicating if there is space in the buffer to produce.
+A variable indicating if there is ojects in the buffer to consume.
