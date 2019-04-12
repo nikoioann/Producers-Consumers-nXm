@@ -93,8 +93,8 @@ void initialize(){
 	sem_init(&empty,0,maxbuffsize);
 	pthread_mutex_init(&buf_mutex,0);
 
-	con_cnt = malloc(sizeof(unsigned long long int)*consumers_no);
-	con_sum = malloc(sizeof(unsigned long long int)*consumers_no);
+	con_cnt = malloc(sizeof(unsigned long long)*consumers_no);
+	con_sum = malloc(sizeof(unsigned long long)*consumers_no);
 
 	buffer = malloc(sizeof(int)*maxbuffsize);
 
